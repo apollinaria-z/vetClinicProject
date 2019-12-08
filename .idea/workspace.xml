@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5a3928a-9ace-4d0c-9447-44c677638b01" name="Default Changelist" comment="" />
+    <list default="true" id="c5a3928a-9ace-4d0c-9447-44c677638b01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proj1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proj1.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WorkWithTab">
     <configuration name="Proj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Proj1" />
       <module name="apollinariaproject" />
@@ -43,8 +49,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkWithTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkWithTab" />
+      <module name="apollinariaproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkWithTab" />
         <item itemvalue="Application.Proj1" />
       </list>
     </recent_temporary>
@@ -60,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575127881449</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1575821882846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575821882846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
