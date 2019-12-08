@@ -1,0 +1,26 @@
+create database bh18db;
+use bh18db;
+
+drop table tab1;
+drop table tab2;
+
+create table tab1(
+	id int auto_increment primary key,
+    petName varchar(56) not null unique,
+    petType varchar(56) not null,
+    petAge int check(petAge >=0),
+    petParent varchar(56) not null unique
+    );
+
+  --  create table tab2 (
+  --  petName varchar(56) not null unique,
+  --  petProblem varchar(57) not null unique
+  --  );
+
+  insert into tab1 values
+  (null, 'one', 'cat', 3, 'katya'),
+  (null, 'two', 'fish', 5, 'olya'),
+  (null, 'three', 'dog', 1, 'denis'),
+  (null, 'four', 'hamster', 2, 'tom');
+
+  select * from tab1;
