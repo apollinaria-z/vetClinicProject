@@ -1,0 +1,27 @@
+create database newdata;
+use newdata;
+drop table newtab1;
+create table newtab1(
+	id int auto_increment primary key,
+    name varchar(56) not null unique,
+    pet varchar(56) not null,
+    age int check(petAge >=0),
+    parent varchar(56) not null unique,
+    desease varchar(56) not null unique
+    );
+
+    insert into newtab1 values
+  (null, 'kitty', 'cat', 3, 'katya', 'allergy'),
+  (null, 'boo', 'fish', 5, 'olya', 'no appetite'),
+  (null, 'hacker', 'dog', 1, 'denis', 'flu'),
+  (null, 'oliver', 'hamster', 2, 'tom', 'madness'),
+  (null, 'bella', 'horse', 5, 'peter', 'sprain');
+
+   select * from newtab1;
+   insert into newtab1 values
+  (null, 'lora', 'bird', 2, 'simon', 'depression');
+
+
+
+  delete from newtab1 where name='lora';
+

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a3928a-9ace-4d0c-9447-44c677638b01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sqlFile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sqlFileProject1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proj1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proj1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proj1.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WorkWithTab">
+  <component name="RunManager" selected="Application.Proj1">
     <configuration name="Proj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Proj1" />
       <module name="apollinariaproject" />
@@ -54,8 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WorkWithTab" />
         <item itemvalue="Application.Proj1" />
+        <item itemvalue="Application.WorkWithTab" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575829544037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2-1">
+      <created>1575829617305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575829617305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -101,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="2-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-1" />
   </component>
 </project>
