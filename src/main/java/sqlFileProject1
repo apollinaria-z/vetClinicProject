@@ -23,5 +23,3 @@ create table newtab1(
 
 
 
-  delete from newtab1 where name='lora';
-

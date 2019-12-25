@@ -1,17 +1,16 @@
 public class Pets {
 
-    private int id;
     private String name, pet, parent, desease;
     private int age;
 
-    public Pets(int id, String name, String pet, int age, String parent, String desease) {
-        this.id = id;
-        this.name = name;
-        this.pet = pet;
-        this.age = age;
-        this.parent = parent;
-        this.desease = desease;
-}
+
+   public Pets() {
+       this.name = name;
+       this.pet = pet;
+       this.age = age;
+       this.parent = parent;
+       this.desease = desease;
+    }
 
     public int getAge() {
         return age;
@@ -51,17 +50,17 @@ public class Pets {
     public void setPet(String pet) {
         this.pet = pet;
     }
-    public int getId() {
+  /*  public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
-    }
+    }*/
 
     @Override
     public String toString() {
-        return id + ") Pet " + name + " is " + pet + "\n age=" + age +
+        return "Pet " + name + " is " + pet + "\n age=" + age +
         "\n desease=" + desease+ "\n parent is " + parent;
     }
 }

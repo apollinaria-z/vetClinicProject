@@ -16,24 +16,25 @@ public class WorkWithTab {
     //methods for project
 
     public static void registerPet() throws IOException {
+       Pets newpet = new Pets();
 
         try (BufferedReader readconcole = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println("Enter the name of your pet");
-            String petName = readconcole.readLine();
+            newpet.setName(readconcole.readLine());
             System.out.println("Enter the type of your pet");
-            String petType = readconcole.readLine();
+            newpet.setPet(readconcole.readLine());
             System.out.println("Enter the age of your pet");
-            int petAge = Integer.parseInt(readconcole.readLine());
+            newpet.setAge(Integer.parseInt(readconcole.readLine()));
             System.out.println("Enter the name of pet parent");
-            String petParent = readconcole.readLine();
+            newpet.setParent(readconcole.readLine());
             System.out.println("Enter the desease of your pet");
-            String petDesease = readconcole.readLine();
+            newpet.setDesease(readconcole.readLine());
 
             Connection connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
             Statement statement = connection.createStatement();
             String petAdding = "insert into newtab1 value\n" +
-                    "  (null, '"+ petName + "', '"+petType+"', "+petAge+
-                    ", '"+petParent+"', '"+petDesease+"')";
+                    "  (null, '"+ newpet.getName() + "', '"+ newpet.getPet() +"', "+ newpet.getAge() +
+                    ", '"+ newpet.getParent() +"', '"+ newpet.getDesease() +"')";
             statement.executeUpdate(petAdding);
             statement.close();
             connection.close();
@@ -51,13 +52,12 @@ public class WorkWithTab {
                     "select id, name, pet, age, parent, desease from newtab1");
             ArrayList<Pets> listOfPets = new ArrayList<>();
             while (resultSet.next()) {
-                int id = resultSet.getInt(1);
                 String name = resultSet.getString("name");
                 String pet = resultSet.getString("pet");
                 int age = resultSet.getInt("age");
                 String parent = resultSet.getString("parent");
                 String desease = resultSet.getString("desease");
-                Pets somePet = new Pets(id, name, pet, age, parent, desease);
+                Pets somePet = new Pets();
                 listOfPets.add(somePet);
             }
             resultSet.close();

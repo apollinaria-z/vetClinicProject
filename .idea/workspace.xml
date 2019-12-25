@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a3928a-9ace-4d0c-9447-44c677638b01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sqlFileProject1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlFile1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Proj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proj1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Proj1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proj1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sqlFileProject1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sqlFileProject1" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,20 +25,13 @@
   </component>
   <component name="ProjectId" id="1ULFHeHLJDFlcs7uMwReZ732cK2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Proj1">
     <configuration name="Proj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -63,6 +54,18 @@
         <item itemvalue="Application.WorkWithTab" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575829617305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project beginning">
+      <created>1576443039603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576443039604</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +126,13 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="2-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-1" />
+    <MESSAGE value="project beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="project beginning" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="296" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1577295572633">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="296" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1577295572633" />
   </component>
 </project>
