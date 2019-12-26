@@ -4,7 +4,7 @@ import java.sql.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Proj1 extends WorkWithTab {
+public class Proj1 {
 
     public static void main(String[] args) {
     System.out.println("Welcome to the Vet Clinic");
@@ -18,16 +18,16 @@ public class Proj1 extends WorkWithTab {
         int petAction = Integer.parseInt(readconcole.readLine());
         switch (petAction){
             case 1:
-                registerPet();
+                WorkWithTab.registerPet();
                 break;
 	        case 0:
-	            allPetsOfClinic();
+                WorkWithTab.allPetsOfClinic();
                 break;
 	        case 2:
-	            takePet();
+                WorkWithTab.takePet();
                 break;
 		    case 3:
-	            healing();
+                WorkWithTab.healing();
                 break;
             case 4:
                 System.out.println("Nice to meet you. See you next time!");
