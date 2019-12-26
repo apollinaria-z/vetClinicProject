@@ -12,6 +12,14 @@ public class Pets {
        this.desease = desease;
     }
 
+    public Pets(String name, String pet, int age, String parent, String desease) {
+        this.name = name;
+        this.pet = pet;
+        this.age = age;
+        this.parent = parent;
+        this.desease = desease;
+    }
+
     public int getAge() {
         return age;
     }

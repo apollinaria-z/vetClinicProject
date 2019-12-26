@@ -57,7 +57,7 @@ public class WorkWithTab {
                 int age = resultSet.getInt("age");
                 String parent = resultSet.getString("parent");
                 String desease = resultSet.getString("desease");
-                Pets somePet = new Pets();
+                Pets somePet = new Pets(name, pet, age, parent, desease);
                 listOfPets.add(somePet);
             }
             resultSet.close();

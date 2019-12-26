@@ -29,6 +29,9 @@ public class Proj1 extends WorkWithTab {
 		    case 3:
 	            healing();
                 break;
+            case 4:
+                System.out.println("Nice to meet you. See you next time!");
+                break;
         }
         System.out.println("SEE YOU!");
 
