@@ -8,45 +8,51 @@ import java.util.List;
 public class WorkWithTab {
 
     static final String DATABASE_URL = "jdbc:mysql://localhost/newdata";
-    static final String USER = "root";
-    static final String PASS = "root";
+   static final String USER = "root";
+   static final String PASS = "root";
 
-    private static Connection connection;
+   public static Connection connection;
+
+    static {
+        try {
+            connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     //methods for project
 
     public static void registerPet() throws IOException {
        Pets newpet = new Pets();
 
-        try (BufferedReader readconcole = new BufferedReader(new InputStreamReader(System.in))) {
+        try  {
+            BufferedReader readconcole1 = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Enter the name of your pet");
-            newpet.setName(readconcole.readLine());
+            newpet.setName(readconcole1.readLine());
             System.out.println("Enter the type of your pet");
-            newpet.setPet(readconcole.readLine());
+            newpet.setPet(readconcole1.readLine());
             System.out.println("Enter the age of your pet");
-            newpet.setAge(Integer.parseInt(readconcole.readLine()));
+            newpet.setAge(Integer.parseInt(readconcole1.readLine()));
             System.out.println("Enter the name of pet parent");
-            newpet.setParent(readconcole.readLine());
+            newpet.setParent(readconcole1.readLine());
             System.out.println("Enter the desease of your pet");
-            newpet.setDesease(readconcole.readLine());
+            newpet.setDesease(readconcole1.readLine());
 
-            Connection connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
-            Statement statement = connection.createStatement();
+           Statement statement = connection.createStatement();
             String petAdding = "insert into newtab1 value\n" +
                     "  (null, '"+ newpet.getName() + "', '"+ newpet.getPet() +"', "+ newpet.getAge() +
                     ", '"+ newpet.getParent() +"', '"+ newpet.getDesease() +"')";
             statement.executeUpdate(petAdding);
             statement.close();
-            connection.close();
         } catch (NullPointerException | SQLException ee) {
             ee.printStackTrace();
         }
-        System.out.println("your pet is successfully registered");
+        System.out.println("Dear pet parent! Your pet is successfully registered");
     }
 
     public static void allPetsOfClinic() throws SQLException {
         try {
-            Connection connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(
                     "select id, name, pet, age, parent, desease from newtab1");
@@ -62,8 +68,8 @@ public class WorkWithTab {
             }
             resultSet.close();
             statement.close();
-            connection.close();
             listOfPets.forEach(System.out::println);
+            System.out.println("\n Total amount of pets is " + listOfPets.size());
         } catch (NullPointerException ee){
             ee.printStackTrace();
         }
@@ -74,13 +80,11 @@ public class WorkWithTab {
             System.out.println("Enter the name of your pet, please");
             BufferedReader readdd = new BufferedReader(new InputStreamReader(System.in));
             String takenPetname = readdd.readLine();
-            Connection connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
-            Statement statement = connection.createStatement();
+           Statement statement = connection.createStatement();
             statement.executeUpdate(
                     "delete from newtab1 where name='" + takenPetname + "';");
             System.out.println("You can take your lovely: "+takenPetname);
-            statement.close();
-            connection.close();
+           statement.close();
         } catch (NullPointerException | SQLException ee) {
             ee.printStackTrace();
         }
@@ -89,18 +93,17 @@ public class WorkWithTab {
     public static void healing() {
         System.out.println("what's the name of your pet?");
         try{
-            BufferedReader readdd = new BufferedReader(new InputStreamReader(System.in));
-            String healingPet = readdd.readLine();
-            Connection connection = DriverManager.getConnection(DATABASE_URL, USER, PASS);
+            BufferedReader readdd1 = new BufferedReader(new InputStreamReader(System.in));
+            String healingPet = readdd1.readLine();
             Statement statement = connection.createStatement();
             String sqlCommand = "update newtab1 set desease = 'HEALTHY' " +
                     "where name = '" + healingPet + "';";
             statement.executeUpdate(sqlCommand);
             System.out.println("Your pet " +healingPet+ " is healthy. Take it home!");
+            statement.close();
         } catch (SQLException | IOException e){
             e.printStackTrace();
         }
     }
-
 
 }
