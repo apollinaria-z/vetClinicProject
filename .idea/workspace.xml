@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c5a3928a-9ace-4d0c-9447-44c677638b01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PetDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Proj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proj1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Proj1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proj1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sqlFileProject1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textForDatabase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proj1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -26,15 +51,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Proj1">
-    <configuration name="Proj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proj1" />
+  <component name="RunManager" selected="Application.RunThis">
+    <configuration name="RunThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunThis" />
+      <module name="apollinariaproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="T1" />
       <module name="apollinariaproject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -49,22 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Proj1" />
+        <item itemvalue="Application.RunThis" />
+        <item itemvalue="Application.T1" />
         <item itemvalue="Application.WorkWithTab" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,6 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575127881449</updated>
+      <workItem from="1611738487465" duration="7763000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1575821882846</created>
@@ -126,21 +153,30 @@
       <option name="project" value="LOCAL" />
       <updated>1577363032884</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="project is finally working!!!!!!!">
+      <created>1577826320124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577826320124</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
@@ -150,36 +186,33 @@
     <MESSAGE value="project beginning 2" />
     <MESSAGE value="project beginning 3" />
     <MESSAGE value="project beginning some" />
-    <option name="LAST_COMMIT_MESSAGE" value="project beginning some" />
+    <MESSAGE value="project is finally working!!!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="project is finally working!!!!!!!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="271" y="23" width="737" height="777" key="CommitChangelistDialog2" timestamp="1577363032561">
+    <state x="10" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611739476000">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="271" y="23" width="737" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1577363032561" />
-    <state width="1218" height="223" key="GridCell.Tab.0.bottom" timestamp="1577825601917">
+    <state x="10" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1611739476000" />
+    <state x="402" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1611743800791">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="223" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1577825601917" />
-    <state width="1218" height="223" key="GridCell.Tab.0.center" timestamp="1577825601917">
+    <state x="402" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1611743800791" />
+    <state width="1142" height="196" key="GridCell.Tab.0.bottom" timestamp="1611748660226">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="223" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1577825601917" />
-    <state width="1218" height="223" key="GridCell.Tab.0.left" timestamp="1577825601916">
+    <state width="1142" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1611748660226" />
+    <state width="1142" height="196" key="GridCell.Tab.0.center" timestamp="1611748660225">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="223" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1577825601916" />
-    <state width="1218" height="223" key="GridCell.Tab.0.right" timestamp="1577825601917">
+    <state width="1142" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1611748660225" />
+    <state width="1142" height="196" key="GridCell.Tab.0.left" timestamp="1611748660224">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="223" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1577825601917" />
-    <state x="240" y="153" key="Vcs.Push.Dialog.v2" timestamp="1577363034633">
+    <state width="1142" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1611748660224" />
+    <state width="1142" height="196" key="GridCell.Tab.0.right" timestamp="1611748660225">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="153" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1577363034633" />
-    <state x="296" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1577815087722">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="296" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1577815087722" />
+    <state width="1142" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1611748660225" />
   </component>
 </project>

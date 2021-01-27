@@ -1,0 +1,22 @@
+create database petClinicDb;
+
+create table newtab1(
+	id serial primary key,
+    name varchar(50) not null,
+    pet varchar(50) not null,
+    age int not null,
+    parent varchar(50) not null,
+    disease varchar(50) not null
+    );
+
+    insert into newtab1 (name, pet, age, parent, disease)
+                 values ('kitty', 'cat', 3, 'katya', 'allergy'),
+                        ('boo', 'fish', 5, 'olya', 'no appetite'),
+                        ('hacker', 'dog', 1, 'denis', 'flu'),
+                        ('oliver', 'hamster', 2, 'tom', 'madness'),
+                        ('bella', 'horse', 5, 'peter', 'sprain');
+
+
+
+
+
